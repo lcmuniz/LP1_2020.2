@@ -2,6 +2,7 @@
 
 // Pede a nota ao usuário
 var nota = prompt("Digite uma nota entre 0 e 10")
+
 // Converte em número
 nota = Number(nota)
 
@@ -13,6 +14,9 @@ while (nota < 0 || nota > 10) {
 
   // Pede a nota novamente
   nota = prompt("Digite uma nota entre 0 e 10")
+
+  // Converte em número
+  nota = Number(nota)
 
 }
 

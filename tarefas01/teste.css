@@ -1,0 +1,19 @@
+.principal {
+  width: 300px;
+  display: flex;
+}
+.primeira {
+  flex: 3;
+  height: 100px;
+  width: 300px;
+}
+
+.segunda {
+  flex: 2;
+  height: 100px;
+  width: 300px;
+}
+
+.lista {
+  list-style: square;
+}

@@ -1,0 +1,98 @@
+  body {
+    background-color: #eee;
+  }
+
+  .tela {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .cabecalho {
+    display: flex;
+    background-color: blueviolet;
+    height: 80px;
+  }
+
+  .titulo {
+    flex: 1;
+    color:white;
+    font-family: Goldman;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .conteudo {
+    min-height: 100px;
+  }
+
+  .formulario {
+      display: flex;
+      align-items: center;
+      background-color: mediumslateblue;
+      padding: 20px;   
+  }
+
+  .entrada {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .mais {
+    margin-left: 10px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .lista {
+    list-style: none; 
+    margin:0;
+    padding: 0;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid black;
+  }
+
+  .texto {
+    flex: 1;
+    margin-left: 10px;
+  }
+
+  .risco {
+    text-decoration: line-through;
+  }
+
+  .circulo {
+    color: blueviolet;
+  }
+
+  .lixeira {
+    color: blueviolet;
+    cursor: pointer;
+  }
+
+  .lixeira:hover {
+    color: red;
+  }
+
+  .botoes {
+    padding: 10px;
+  }
+
+  .carregar {
+    padding: 10px;
+    width: 100px;
+  }
+
+  .salvar {
+    padding: 10px;
+    width: 100px;
+  }

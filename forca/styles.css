@@ -1,0 +1,63 @@
+.conteudo {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.palavra {
+    text-align: center;
+}
+
+.palavra input {
+    text-align: center;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.areaPalpite {
+    text-align: center;
+}
+
+.tituloPalpite {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+.letra input {
+    height: 50;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.enviar button {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.novo button {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.tentativas {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.palpites {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
